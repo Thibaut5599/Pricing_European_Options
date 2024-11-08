@@ -14,8 +14,8 @@ The main objectives of this project are:
 ## Project Contents 
 - **Screenshots :** The Screenshots folder contains the PNG files that are included in the report (mainly screenshots of the matlab code and the results that the code returns).
 - **Matlab Code Files :** Matlab_Code folder contains Matlab scripts implementing each Monte Carlo method and the associated variance reduction techniques.
-  - **montecarlo_Call.m :** script implementing standard Monte Carlo method for call pricing.
-  - **montecarlo_Put.m :** script implementing standard Monte Carlo method for put pricing.
+  - **montecarlo_C.m :** script implementing standard Monte Carlo method for call pricing.
+  - **montecarlo_P.m :** script implementing standard Monte Carlo method for put pricing.
   - **Echantillonnage_pref.m :** script implementing Importance Sampling method for call pricing.
   - **montecarlo_varcontrol.m :** script implementing Control Variates method for call pricing.
   - **montecarlo_var_antithetiques.m :** script implementing Antithetic Variates method for call pricing.
