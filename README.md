@@ -26,8 +26,9 @@ The main objectives of this project are:
 Among the four Monte Carlo methods tested, the Control Variates approach was found to be the most effective, providing the lowest variance and highest precision in estimating option prices (both call $C$ ant put $P$). This method particularly excelled in large-scale simulations (e.g., $n=10^4$ and $n=10^6$), showcasing its reliability and accuracy as a variance reduction technique. Overall, variance reduction methods like Control Variates significantly improved the precision of option price estimates.
 
 ## Usage
-- **Matlab Code :**\
+- **Matlab Code :**
   1. Clone the repository :
-     git clone https://github.com/Thibaut5599/Pricing_European_Options.git\
-  2. Open the Matlab project files in Matlab.\
+     git clone https://github.com/Thibaut5599/Pricing_European_Options.git
+  2. Open the Matlab project files in Matlab.
   3. Run the scripts for each Monte Carlo method to observe the results and compare performance.
+- **
