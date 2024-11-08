@@ -30,7 +30,10 @@ Among the four Monte Carlo methods tested, the Control Variates approach was fou
   1. Clone the repository :
      git clone https://github.com/Thibaut5599/Pricing_European_Options.git
   2. Open the Matlab project files in Matlab.
-  3. Run the scripts for each Monte Carlo method to observe the results and compare performance.
+  3. Use the Monte Carlo Functions : Each Matlab script contains a function corresponding to a Monte Carlo method. To run a method and view the results, call the relevant function in the Matlab console, specifying the number of simulations $n$. For example :\
+     % For the standard Monte Carlo method\
+     $[I, V, e, B_{1}, B_{2}] = montecarlo_C(1e6)$; % where $1e6e$ corresponds to the number of simulations, here $n = 10^6$
+     
 - **
 
 ## Author
