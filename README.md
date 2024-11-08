@@ -6,7 +6,7 @@ This project was followed as part of my second year of a Master of Mathematics a
 This project focuses on estimating the price of European-style options at time $t=0$ using Monte Carlo simulation methods, alongside various variance reduction techniques. By implementing and comparing different methods, the project aims to identify the most efficient approach to pricing options in terms of accuracy and computational efficiency.
 
 ## Objectives
-The main objectives of this project are:
+The main objectives of this project are :
 - To implement four Monte Carlo methods : **Standard Monte Carlo**, **Importance Sampling**, **Control Variates**, and **Antithetic Variates**.
 - To analyze each method’s performance by comparing key metrics, particularly variance and convergence speed.
 - To determine which method provides the most accurate pricing estimates for options, with a focus on minimizing variance.
