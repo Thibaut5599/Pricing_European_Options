@@ -27,12 +27,12 @@ Among the four Monte Carlo methods tested, the Control Variates approach was fou
 
 ## Usage
 - **Matlab Code :**
-<ol>
-   <li>Clone the repository :
+  <ol>
+     <li>Clone the repository :
      git clone https://github.com/Thibaut5599/Pricing_European_Options.git</li>
-   <li>Open the Matlab project files in Matlab.</li>
-   <li>Run the scripts for each Monte Carlo method to observe the results and compare performance.</li>
-</ol>
+     <li>Open the Matlab project files in Matlab.</li>
+     <li>Run the scripts for each Monte Carlo method to observe the results and compare performance.</li>
+  </ol>
 
 
   1. Clone the repository :
