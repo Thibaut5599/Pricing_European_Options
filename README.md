@@ -26,19 +26,26 @@ The main objectives of this project are:
 Among the four Monte Carlo methods tested, the Control Variates approach was found to be the most effective, providing the lowest variance and highest precision in estimating option prices (both call $C$ ant put $P$). This method particularly excelled in large-scale simulations (e.g., $n=10^4$ and $n=10^6$), showcasing its reliability and accuracy as a variance reduction technique. Overall, variance reduction methods like Control Variates significantly improved the precision of option price estimates.
 
 ## Usage
-- **Matlab Code :**
+**To run the Matlab code, here is the procedure to follow :**
   1. Clone the repository :
      git clone https://github.com/Thibaut5599/Pricing_European_Options.git
   2. Open the Matlab project files in Matlab.
-  3. Use the Monte Carlo Functions : Each Matlab script contains a function corresponding to a Monte Carlo method. To run a method and view the results, call the relevant function in the Matlab console, specifying the number of simulations $n$. For example :\
+  3. Use the Monte Carlo Functions : Each Matlab script contains a function corresponding to a Monte Carlo method. To run a method and view the results, call the relevant function in the Matlab console, specifying the number of simulations $n$. For example :
      
      % For the standard Monte Carlo method\
-     [I, V, e, B_{1}, B_{2}] = montecarlo_C(1e6); % where $1e6e$ corresponds to the number of simulations, here $n = 10^6$
+     [I, V, e, B1, B2] = montecarlo_C(1e6); % where 1e6 corresponds to the number of simulations, here n = 10^6
 
-     % For the importance sampling method 
+     % For the importance sampling method\
+     [I, V, e, B1, B2] = Echantillonnage_pref(1e6);
+
+     % For the control variates method\
+     [I, V, e, B1, B2] = montecarlo_varcontrol(1e6);
+
+     % For the anithetic variates method\
+     [I, V, e, B1, B2] = montecarlo_var_antithetiques(1e6);
      
-- **
-
+  4. Interpret the results : Each function call returns the simulation results, including the estimated option price (I), the variance estimator (V), the standard error (e), the lower limit of the confidence interval at the 95% level (B1) and la limite supérieure de l'intervalle de confiance au niveau de 95 % (B2).
+     
 ## Author
 Project designed by Université de Lorraine, carried out by Thibaut LANNERS.
 
