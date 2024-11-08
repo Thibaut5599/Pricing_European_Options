@@ -27,8 +27,10 @@ Among the four Monte Carlo methods tested, the Control Variates approach was fou
 
 ## Usage
 **To run the Matlab code, here is the procedure to follow :**
-  1. **Clone the repository** (enter the following command in a terminal) :\
+  1. **Clone the repository** (enter the following command in a terminal) :
+     
      git clone https://github.com/Thibaut5599/Pricing_European_Options.git
+     
   2. Open the Matlab code files in Matlab.
   3. Use the Monte Carlo Functions : Each Matlab script contains a function corresponding to a Monte Carlo method. To run a method and view the results, call the relevant function in the Matlab console, specifying the number of simulations n. For example :
      
@@ -44,7 +46,7 @@ Among the four Monte Carlo methods tested, the Control Variates approach was fou
      % For the anithetic variates method\
      [I, V, e, B1, B2] = montecarlo_var_antithetiques(1e6);
      
-  4. Interpret the results : Each function call returns the simulation results, including the estimated option price (I), the variance estimator (V), the standard error (e), the lower limit of the confidence interval at the 95% level (B1) and la limite supérieure de l'intervalle de confiance au niveau de 95 % (B2).
+  5. Interpret the results : Each function call returns the simulation results, including the estimated option price (I), the variance estimator (V), the standard error (e), the lower limit of the confidence interval at the 95% level (B1) and la limite supérieure de l'intervalle de confiance au niveau de 95 % (B2).
      
 ## Author
 Project designed by Université de Lorraine, carried out by Thibaut LANNERS.
