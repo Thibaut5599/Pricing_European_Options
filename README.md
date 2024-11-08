@@ -32,3 +32,7 @@ Among the four Monte Carlo methods tested, the Control Variates approach was fou
   2. Open the Matlab project files in Matlab.
   3. Run the scripts for each Monte Carlo method to observe the results and compare performance.
 - **
+
+## Author
+Project designed by Université de Lorraine, carried out by Thibaut LANNERS.
+
