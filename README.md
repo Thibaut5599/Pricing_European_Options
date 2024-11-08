@@ -27,7 +27,7 @@ Among the four Monte Carlo methods tested, the Control Variates approach was fou
 
 ## Usage
 **To run the Matlab code, here is the procedure to follow :**
-  1. Clone the repository :
+  1. Clone the repository :\
      git clone https://github.com/Thibaut5599/Pricing_European_Options.git
   2. Open the Matlab project files in Matlab.
   3. Use the Monte Carlo Functions : Each Matlab script contains a function corresponding to a Monte Carlo method. To run a method and view the results, call the relevant function in the Matlab console, specifying the number of simulations $n$. For example :
