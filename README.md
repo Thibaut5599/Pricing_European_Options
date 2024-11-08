@@ -1,5 +1,7 @@
 # Pricing European Options
 
+This project was followed as part of my second year of a Master of Mathematics at Université de Lorraine. This is a guided project carried out in the “Stochastic Modeling” teaching unit. This project is written entirely in French.
+
 ## Project Overview
 This project focuses on estimating the price of European-style options at time $t=0$ using Monte Carlo simulation methods, alongside various variance reduction techniques. By implementing and comparing different methods, the project aims to identify the most efficient approach to pricing options in terms of accuracy and computational efficiency.
 
